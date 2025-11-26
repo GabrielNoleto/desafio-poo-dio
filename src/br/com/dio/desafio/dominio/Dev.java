@@ -8,7 +8,7 @@ import java.util.Set;
 public class Dev {
 
     private String nome;
-    private Set<Conteudo> conteudosInscritos = new LinkedHashSet<>(); // coleção que só permite
+    private Set<Conteudo> conteudosInscritos = new LinkedHashSet<>(); 
     private Set<Conteudo> conteudosConcluidos = new LinkedHashSet<>();
 
     public String getNome() {
